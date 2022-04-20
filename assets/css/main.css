@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  margin: 0 185px; }
+  .container-header .logo {
+    color: #1b3172; }
+    .container-header .logo h3 {
+      font-weight: 700;
+      font-size: 25px; }
+  .container-header .nav-links ul {
+    display: flex;
+    list-style: none;
+    cursor: pointer; }
+    .container-header .nav-links ul:hover {
+      color: royalblue; }
+    .container-header .nav-links ul li {
+      margin-right: 20px; }
+  .container-header .icon ul {
+    display: flex; }
+    .container-header .icon ul li {
+      margin-right: 60px;
+      font-size: 20px;
+      list-style: none;
+      color: royalblue;
+      cursor: pointer; }
+
+.container-title .image {
+  background-image: url(https://www.nokia.com/sites/default/files/styles/scale_1920/public/2022-02/Trendspotting_H3_Desktop_1920x720_6.jpg?h=4b1810ef);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.container-title .title-text {
+  text-align: left;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; }
+  .container-title .title-text h1 {
+    font-size: 80px; }
+
+.container-title .title-desc {
+  text-align: left;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; }
+  .container-title .title-desc p {
+    font-size: 30px;
+    font-weight: 100; }
+
+.container-title .title-button button {
+  background-color: royalblue;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  position: absolute;
+  top: 70%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+  color: white; }
